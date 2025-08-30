@@ -3,7 +3,7 @@
 ## 📌 Overview
 This project investigates whether **implied volatility from VIX options** leads **realized volatility of the SP500**.  
 Using **WRDS TAQ tick data** and **OptionMetrics VIX options**, we:
-1. Construct daily **realized volatility** from tick-by-tick SPY trades.
+1. Construct daily **realized volatility** from tick-by-tick SP500 ETF trades.
 2. Extract daily **implied volatility** measures from VIX option chains.
 3. Test the relationship using:
    - Simple correlation
